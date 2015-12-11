@@ -83,14 +83,14 @@ img{
 
 .feature-wrapper ul li{
   float: left;
-  background: white;
-  width: 148px;
+  background: url('../images/feature-btm-border.png') center bottom no-repeat;
   margin: 0 29px;
   text-align: center;
 }
 
 .top-image{
   display: block;
+  width: 148px;
   height: 60px;
 }
 
@@ -113,5 +113,5 @@ img{
 .bottom-writing{
   line-height: 40px;
   font-size: 10.5px;
-  color: #616971;
-}
+  color: #616971; 
+} 
