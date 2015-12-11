@@ -1,0 +1,80 @@
+.wrapper{
+  background: red;
+  max-width: 80em; /*1280px*/
+  margin: 0 auto; 
+}
+
+.header{
+  background: white;
+  padding-left: 3.515625%; /*45px*/
+}
+
+.logo{
+  float: left;
+  padding-top: 17px;  /*17px*/
+  padding-bottom: 16px; /*16px*/
+}
+
+.header-right{
+  float:right;
+}
+
+.navigation{
+  float: left;
+  padding: 0 12px;
+}
+
+.menu-btn{
+  float: right;
+}
+
+.slider{
+  height: 590px;
+  background: grey;
+}
+
+.main-container{
+  background: pink;
+}
+
+.col1-layout{
+
+}
+
+.feature-wrapper{
+  padding: 18px 16px 37px;
+  background: white;
+}
+
+.feature-section{
+  width: 99.11858974358974%; /*1237px;*/
+  margin: 0 auto;
+}
+
+.about{
+  height: 388px;
+  background: green;
+}
+
+.counter{
+  height: 146px;
+  background: #fe6261;
+}
+
+.posts{
+  height: 481px;
+  background: yellow;
+}
+
+.more{
+  height: 68px;
+  background: #fcf8f5;
+}
+
+.footer{
+  background: grey;
+  height: 312px;
+}
+
+
+

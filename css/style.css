@@ -1,0 +1,117 @@
+img{
+  display:block;
+}
+
+
+/*style for navigation bar*/
+
+.navigation ul{
+  list-style: none;
+}
+
+.navigation ul li{
+  float: left;
+  padding: 0 15px;
+  background: ;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  color: #49443d;
+  background: url('../images/menu-arrow.png') right center no-repeat;
+  padding-right: 7px;
+  line-height: 59px;
+}
+
+.navigation ul li a:hover{
+  color: #fe444b;
+  background: url('../images/menu-arrow-active.png') right center no-repeat;
+}
+
+.navigation .active a{
+  color: #fe444b;
+  background: url('../images/menu-arrow-active.png') right center no-repeat;
+}
+
+.search-menu{
+  float: left;
+  width: 57px;
+  height: 59px;
+  background: url('../images/search-icon.png') center center no-repeat;
+  border-left: 1px solid #ededed;
+}
+
+.search-menu a{
+  display: block;
+}
+
+.shopping-cart{
+  float: left;
+  width: 56px;
+  background: url('../images/shopping-cart.png') 17px center no-repeat;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #7d7d7d;
+}
+
+.cart-item-no{
+  line-height: 59px;
+  padding-right: 14px;
+  float: right;
+  font-family: 'Roboto',sans-serif;
+  font-size: 11px;
+  color: #575861;
+}
+
+
+.burger-btn{
+  float: left;
+  width: 56px;
+  height: 59px;
+  background: url('../images/burger-btn.png') center center no-repeat;
+  background-color: #333333;
+  border-left: 1px solid #161616;
+  border-right: 1px solid #161616;
+}
+
+
+/*feature section*/
+.feature-wrapper ul{
+  list-style: none;
+}
+
+.feature-wrapper ul li{
+  float: left;
+  background: white;
+  width: 148px;
+  margin: 0 29px;
+  text-align: center;
+}
+
+.top-image{
+  display: block;
+  height: 60px;
+}
+
+.top-image.first{
+  background: url('../images/feature-1.png') center center no-repeat;
+}
+
+.top-image.second{
+  background: url('../images/feature-2.png') center center no-repeat;
+}
+
+.top-image.third{
+  background: url('../images/feature-3.png') center center no-repeat;
+}
+
+.top-image.fourth{
+  background: url('../images/feature-4.png') center center no-repeat;
+}
+
+.bottom-writing{
+  line-height: 40px;
+  font-size: 10.5px;
+  color: #616971;
+}
