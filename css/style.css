@@ -84,8 +84,9 @@ img{
 .feature-wrapper ul li{
   float: left;
   background: url('../images/feature-btm-border.png') center bottom no-repeat;
-  margin: 0 29px;
+  margin: 0 2.344381568310428%; /*29px*/
   text-align: center;
+  width: 11.96443007275667%;
 }
 
 .feature-wrapper ul li a{
@@ -94,7 +95,7 @@ img{
 
 .top-image{
   display: block;
-  width: 148px;
+  width: 100%; /*148px;*/
   height: 60px;
 }
 
@@ -130,29 +131,55 @@ img{
 }
 
 .about-content{
-  padding: 81px 69px;
+  padding: 79px 69px;
 }
 
 .about-content h1{
   font-size: 27px;
   font-weight: bold;
-  line-height: 22px;
-  margin-bottom: 21px;
   color: #333331;
+  background: red;
 }
 
 .about-top{
+  padding-top: 18px;
+}
+
+.about-top p{
   font-family: 'Roboto',sans-serif;
   font-size: 13px;
   line-height: 21px;
   color: #625757;
+  background: red;
 }
 
-.about-content p{
-  margin-top: 25px;
+.about-bottom{
+  padding: 22px 0 28px;
+}
+
+.about-bottom p{
   font-size: 10px;
   line-height: 18px;
   color: #7f7a7d;
+  background: red;
+}
+
+.btn{
+  display: inline-block;
+  background: #fe6261;
+  margin-right: 11px;
+  border: 1px solid #fe4d4c;
+  padding: 0px 16px;
+}
+
+.btn a{
+  display: block;
+  text-decoration: none;
+  font-size: 9px;
+  color: white;
+  line-height: 28px;
+  padding-right: 18px;
+  background: url('../images/btn-arrow-active.png') center right no-repeat;
 }
 
 .about-right{
@@ -161,6 +188,9 @@ img{
 }
 
 .about-right img{
+  display: block;
+  height: 100%;
   width: 100%;
-  height: 100%
 }
+
+
