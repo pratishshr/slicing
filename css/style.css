@@ -49,7 +49,7 @@ img{
 
 .shopping-cart{
   float: left;
-  width: 56px;
+  width: 56px; 
   background: url('../images/shopping-cart.png') 17px center no-repeat;
   border-left: 1px solid #ececec;
   border-right: 1px solid #7d7d7d;
@@ -88,6 +88,10 @@ img{
   text-align: center;
 }
 
+.feature-wrapper ul li a{
+  text-decoration: none;
+}
+
 .top-image{
   display: block;
   width: 148px;
@@ -110,8 +114,53 @@ img{
   background: url('../images/feature-4.png') center center no-repeat;
 }
 
-.bottom-writing{
+.bottom-text{
   line-height: 40px;
   font-size: 10.5px;
   color: #616971; 
 } 
+
+
+/*about section*/
+
+.about-left{
+  float: left;
+  width: 50%; /*640px*/
+  background: #fbf8f6;  
+}
+
+.about-content{
+  padding: 81px 69px;
+}
+
+.about-content h1{
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 21px;
+  color: #333331;
+}
+
+.about-top{
+  font-family: 'Roboto',sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  color: #625757;
+}
+
+.about-content p{
+  margin-top: 25px;
+  font-size: 10px;
+  line-height: 18px;
+  color: #7f7a7d;
+}
+
+.about-right{
+  float: right;
+  width: 50%;
+}
+
+.about-right img{
+  width: 100%;
+  height: 100%
+}

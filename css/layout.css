@@ -42,7 +42,7 @@
 }
 
 .feature-wrapper{
-  padding: 18px 16px 37px;
+  padding: 18px 16px 38px;
   background: white;
 }
 
@@ -51,8 +51,7 @@
   margin: 0 auto;
 }
 
-.about{
-  height: 388px;
+.about-wrapper{
   background: green;
 }
 
