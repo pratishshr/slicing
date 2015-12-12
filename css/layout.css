@@ -1,6 +1,6 @@
 .wrapper{
   background: red;
-  max-width: 1280px; /*1280px*/
+  max-width: 80em; /*1280px*/
   margin: 0 auto; 
 }
 
@@ -63,12 +63,13 @@
   background: white;
 }
 
-
-
 .footer{
-  background: grey;
-  height: 312px;
+  background: #333333;
+  height: 186px;
+  padding: 63px 0 63px 80px;
 }
+
+
 
 
 

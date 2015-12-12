@@ -305,6 +305,7 @@ img{
   color: #534f58;
   font-size: 9px;
   padding-right: 15px;
+  background: url('../images/read-more-arrow.png') right center no-repeat;;
 }
 
 .opposite .post-content{
@@ -330,4 +331,82 @@ img{
   color: #161c22;
   padding-bottom: 17px;
   background: url('../images/see-more-arrow.png') center bottom no-repeat;
+}
+
+
+/*footer section*/
+
+.footer-column{
+  width: 253px;
+  padding-right: 37px;
+  float: left;
+  background: red;
+}
+
+.logo-footer{
+  padding-bottom: 20px;
+}
+.footer-column p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #88898b;
+  line-height: 18px;
+}
+
+.social-icons{
+  padding: 14px 0;
+  border-bottom: 1px solid #414141;
+}
+
+.social-icons img{
+  border-right: 2px;
+  float: left;
+}
+
+.subscribe-form{
+  padding-top: 16px;
+}
+
+.subscribe-input input{
+  border: 1px solid #3b3b3b;
+  background: none;
+  outline: none;
+  height: 26px;
+  width: 141px;
+  padding: 0 13px;
+  font-size: 9px;
+  float: left;
+  color: #ffefd9;
+}
+
+.subscribe-btn input{
+  border: none;
+  background: #fe6261;
+  float: left;
+  width: 84px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 9px;
+  color: #ffefd9;
+}
+
+.column-title{
+  font-size: 11px;
+  color: white;
+}
+
+.column-title ul li{
+  padding: 13px 0;
+  font-family: 'Roboto',sans-serif;
+}
+
+.blog-title{
+  font-size: 10px;
+  color: #dcded7;
+}
+
+.blog-date{
+  font-size: 10px;
+  color: #787a7b;
 }
