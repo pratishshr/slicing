@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oxide</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
- <!--  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> -->
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
  
 </head>
 <body>
@@ -54,8 +57,9 @@
 <!-- main container starts here -->
     <div class="main-container">
       <div class="col1-layout">
+<!-- feature starts here -->
         <div class="feature-wrapper">
-          <div class="feature-section clrfix">
+          <div class="feature-inner">
             <ul>
               <li>
                 <a href="#">
@@ -94,15 +98,18 @@
                 </a>  
               </li>
             </ul>
-          </div>  
-        </div>
+          </div>
+        </div>  
+<!-- about starts here -->          
         <div class="about-wrapper clrfix">
           <div class="about-left">
             <div class="about-content">
               <h1>ABOUT</h1>
-              <div class="about-top"><p>Tons of <strong>shortcodes</strong> provide countless options. Designed and <strong>built with care</strong>, filled with <strong>creative</strong> features.</p></div>
+              <div class="about-top">
+                <p>Tons of <strong>shortcodes</strong> provide countless options. Designed and <strong>built with care</strong>, filled with <strong>creative</strong> features.</p>
+              </div>
               <div class="about-bottom">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel faucibus diam, sed pellentesque sem. Donec placerat rhoncus elit, malesuada laoreet nibh cursus eu. Cras pellentesque congue interdum. Cras orci est, vestibulum in condimentum quis, rutrum sed nisi.</p>
+                <p>Aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, eu m pede mollis pretium. Integer tincidunt. Cras dapibus vivamus elementum.</p>
               </div>
               <span class="btn">
                <a href="#">BUY THEME</a>
@@ -113,21 +120,95 @@
             </div>
           </div>
           <div class="about-right">
-            <img src="images/about-image.png" alt="about-image">
           </div>
         </div>
-        <div class="counter">
-          counter
+<!-- counter starts here -->        
+        <div class="counter-wrapper">
+          <div class="counter-inner clrfix">
+            <ul>
+              <li>
+                <span class="counter-image first"></span>
+                <span class="counter-number">4</span>
+                <span class="counter-text">CREATIVES</span>
+              </li>
+               <li>
+                <span class="counter-image second"></span>
+                <span class="counter-number">6</span>
+                <span class="counter-text">CODERS</span>
+              </li>
+               <li>
+                <span class="counter-image third"></span>
+                <span class="counter-number">4</span>
+                <span class="counter-text">DESIGNERS</span>
+              </li>
+               <li>
+                <span class="counter-image fourth"></span>
+                <span class="counter-number">2</span>
+                <span class="counter-text">WORKERS</span>
+              </li>
+            </ul>
+          </div>          
         </div>
-        <div class="posts">
-          posts
+<!-- posts starts here -->        
+        <div class="posts clrfix">
+          <ul>
+            <li>
+              <div class="post-image">
+                <img src="images/take-a-break.png" alt="take-a-break">
+              </div>
+              <div class="post-content">
+                <span class="post-date"><em>October 9,2015.</em></span>
+                <span class="post-comment"><em>4 Comments</em></span>
+                <h1>TAKE A BREAK</h1>
+                <p>Lorem ipsum dolor sit amet, consec tetuer adip iscing elit. Aenean commodo ligula eget dolor. Aenean mas- sa. Cum sociis natoque penatibus  ...</p>
+              <span class="post-read-more"><a href="#">READ MORE</a></span>
+              </div>
+            </li>
+             <li>
+              <div class="post-image">
+                <img src="images/creative-chaos.png" alt="creative-chaos">
+              </div>
+              <div class="post-content">
+                <span class="post-date"><em>October 11,2015.</em></span>
+                <span class="post-comment"><em>4 Comments</em></span>
+                <h1>CREATIVE CHAOS</h1>
+                <p>Lorem ipsum dolor sit amet, consec tetuer adip iscing elit. Aenean commodo ligula eget dolor. Aenean mas- sa. Cum sociis natoque penatibus  ...</p>
+              <span class="post-read-more"><a href="#">READ MORE</a></span>  
+              </div>
+            </li>
+             <li class="opposite">
+             <div class="post-image">
+                <img src="images/responsive-rules.png" alt="responsive-rules">
+              </div>
+              <div class="post-content">
+                <span class="post-date"><em>October 9,2015.</em></span>
+                <span class="post-comment"><em>4 Comments</em></span>
+                <h1>RESPONSIVE RULES</h1>
+                <p>Lorem ipsum dolor sit amet, consec tetuer adip iscing elit. Aenean commodo ligula eget dolor. Aenean mas- sa. Cum sociis natoque penatibus  ...</p>
+              <span class="post-read-more"><a href="#">READ MORE</a></span> 
+              </div>
+              
+            </li>
+            <li class="opposite">
+             <div class="post-image">
+                <img src="images/a-day-in-the-office.png" alt="a-day-in-the-office">
+              </div>
+              <div class="post-content">
+                <span class="post-date"><em>October 9,2015.</em></span>
+                <span class="post-comment"><em>4 Comments</em></span>
+                <h1>A DAY IN THE OFFICE</h1>
+                <p>Lorem ipsum dolor sit amet, consec tetuer adip iscing elit. Aenean commodo ligula eget dolor. Aenean mas- sa. Cum sociis natoque penatibus  ...</p>
+              <span class="post-read-more"><a href="#">READ MORE</a></span> 
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="more">
-          more
+          <a href="#">CLICK HERE TO SEE OUR CLIENTS</a>
         </div>
       </div>
     </div>
-    <!-- footer starts here -->
+<!-- footer starts here -->
     <div class="footer">
       <div class="footer-left">
       </div>

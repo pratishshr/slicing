@@ -79,14 +79,16 @@ img{
 /*feature section*/
 .feature-wrapper ul{
   list-style: none;
+  display: table;
+  margin: 0 auto;
 }
 
 .feature-wrapper ul li{
   float: left;
   background: url('../images/feature-btm-border.png') center bottom no-repeat;
-  margin: 0 2.344381568310428%; /*29px*/
+  margin: 0 29px; /*2.344381568310428%;*/
   text-align: center;
-  width: 11.96443007275667%;
+  width: 148px;
 }
 
 .feature-wrapper ul li a{
@@ -95,7 +97,7 @@ img{
 
 .top-image{
   display: block;
-  width: 100%; /*148px;*/
+  width: 148px; /*100%*/
   height: 60px;
 }
 
@@ -126,7 +128,7 @@ img{
 
 .about-left{
   float: left;
-  width: 50%; /*640px*/
+  width: 640px; /*50%*/
   background: #fbf8f6;  
 }
 
@@ -138,7 +140,6 @@ img{
   font-size: 27px;
   font-weight: bold;
   color: #333331;
-  background: red;
 }
 
 .about-top{
@@ -150,7 +151,6 @@ img{
   font-size: 13px;
   line-height: 21px;
   color: #625757;
-  background: red;
 }
 
 .about-bottom{
@@ -158,17 +158,17 @@ img{
 }
 
 .about-bottom p{
+  font-family: 'Roboto',sans-serif;
   font-size: 10px;
   line-height: 18px;
   color: #7f7a7d;
-  background: red;
 }
 
 .btn{
   display: inline-block;
-  background: #fe6261;
+  background: #fbf8f6;
   margin-right: 11px;
-  border: 1px solid #fe4d4c;
+  border: 1px solid #cccac9;
   padding: 0px 16px;
 }
 
@@ -176,21 +176,158 @@ img{
   display: block;
   text-decoration: none;
   font-size: 9px;
-  color: white;
   line-height: 28px;
   padding-right: 18px;
+  color: #756264;
+  background: url('../images/btn-arrow.png') center right no-repeat;
+}
+
+.btn:hover{
+  background: #fe6261;
+  border: 1px solid #fe4d4c;
+}
+
+.btn:hover a{
+  color: white;
   background: url('../images/btn-arrow-active.png') center right no-repeat;
 }
 
 .about-right{
   float: right;
-  width: 50%;
+  width: 640px;
+  height: 386px;
+  background: url('../images/about-image.png');
 }
 
-.about-right img{
+
+/*counter starts here*/
+.counter-inner ul{
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+
+.counter-inner ul li{
+  float: left;
+  width: 190px;
+}
+
+.counter-image{
   display: block;
-  height: 100%;
-  width: 100%;
+  width: 78px;
+  height: 70px;
+  border-right: 2px solid #fc6867;
+  float: left;
 }
 
+.counter-image.first{
+  background: url('../images/counter-1.png') center center no-repeat;
+}
 
+.counter-image.second{
+  background: url('../images/counter-2.png') center center no-repeat;
+}
+.counter-image.third{
+  background: url('../images/counter-3.png') center center no-repeat;
+}
+.counter-image.fourth{
+  background: url('../images/counter-4.png') center center no-repeat;
+}
+
+.counter-number{
+  font-family: 'Roboto',sans-serif;
+  font-size: 30px;
+  color: #fd7e7e;
+  float: left;
+  padding-top: 15px;
+  padding-left: 18px;
+}
+
+.counter-text{
+  float: left;
+  font-size: 10px;
+  color: #fd7e7e;
+  padding-top: 48px;
+  margin-left: -18px;
+}
+
+/*style for posts section*/
+
+.posts ul{
+  list-style: none;
+}
+
+.posts ul li{
+  float: left;
+  background: red;
+}
+
+.post-image{
+  float: left;
+}
+
+.post-image img{
+  height: 241px;
+  width: 320px;
+}
+
+.post-content{
+  float: left;
+  height: 163px;
+  width: 236px;
+  background: #ffffff;
+  padding: 39px 42px;
+} 
+
+.post-date, .post-comment{
+   font-family: 'Roboto',sans-serif;
+   font-size: 9px;
+   color: #787d92;
+}
+
+.post-content h1{
+  color: #3e2c36;
+  font-size: 10px;
+  padding: 13px 0;
+}
+
+.post-content p{
+   font-family: 'Roboto',sans-serif;
+   font-size: 10px;
+   color: #969793;
+   line-height: 17px;
+   padding-top: 5px;
+   padding-bottom: 19px;
+}
+
+.post-read-more a{
+  text-decoration: none;
+  color: #534f58;
+  font-size: 9px;
+  padding-right: 15px;
+}
+
+.opposite .post-content{
+  float: left;
+}
+
+.opposite .post-image{
+  float: right;
+}
+
+/*click more section*/
+.more{
+  height: 24px;
+  text-align: center;
+  background: #fcf8f5;
+  padding: 22px 0;
+
+}
+
+.more a{
+  text-decoration: none;
+  font-size: 10px;
+  color: #161c22;
+  padding-bottom: 17px;
+  background: url('../images/see-more-arrow.png') center bottom no-repeat;
+}

@@ -1,12 +1,12 @@
 .wrapper{
   background: red;
-  max-width: 80em; /*1280px*/
+  max-width: 1280px; /*1280px*/
   margin: 0 auto; 
 }
 
 .header{
   background: white;
-  padding-left: 3.515625%; /*45px*/
+  padding-left: 45px; /*3.515625%;*/
 }
 
 .logo{
@@ -46,29 +46,24 @@
   background: white;
 }
 
-.feature-section{
-  width: 99.11858974358974%; /*1237px;*/
-  margin: 0 auto;
-}
-
 .about-wrapper{
-  background: green;
+  background: #fbf8f6;
 }
 
-.counter{
-  height: 146px;
+.counter-wrapper{
   background: #fe6261;
+  padding-top: 37px;
+  padding-bottom: 36px;
+  border-top: 1px solid #fe4e4d;
+  border-bottom: 1px solid #fe4e4d;
 }
+
 
 .posts{
-  height: 481px;
-  background: yellow;
+  background: white;
 }
 
-.more{
-  height: 68px;
-  background: #fcf8f5;
-}
+
 
 .footer{
   background: grey;
