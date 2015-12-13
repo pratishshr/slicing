@@ -259,7 +259,6 @@ img{
 
 .posts ul li{
   float: left;
-  background: red;
 }
 
 .post-image{
@@ -318,14 +317,16 @@ img{
 
 /*click more section*/
 .more{
-  height: 24px;
+  height: 68px;
   text-align: center;
   background: #fcf8f5;
-  padding: 22px 0;
+
 
 }
 
 .more a{
+  display: block;
+  padding: 22px 0;
   text-decoration: none;
   font-size: 10px;
   color: #161c22;
@@ -340,12 +341,12 @@ img{
   width: 253px;
   padding-right: 37px;
   float: left;
-  background: red;
 }
 
 .logo-footer{
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
+
 .footer-column p{
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
@@ -354,12 +355,14 @@ img{
 }
 
 .social-icons{
-  padding: 14px 0;
+  padding-top: 12px;
+  padding-bottom: 14px;
   border-bottom: 1px solid #414141;
+
 }
 
 .social-icons img{
-  border-right: 2px;
+  padding-right: 2px;
   float: left;
 }
 
@@ -393,20 +396,66 @@ img{
 
 .column-title{
   font-size: 11px;
-  color: white;
+  color: #fdffff;
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 17px;
 }
 
-.column-title ul li{
-  padding: 13px 0;
+.footer-column ul li{
+  padding: 14px 0;
   font-family: 'Roboto',sans-serif;
+  border-top: 1px solid #3f3f3f;
+}
+.footer-column ul li:first-child{
+   border-top: none;
 }
 
 .blog-title{
+  display: block;
+  padding-bottom: 7px;
+}
+
+.blog-title a{
+  text-decoration: none;
   font-size: 10px;
   color: #dcded7;
+  display: block;
 }
 
 .blog-date{
   font-size: 10px;
   color: #787a7b;
+  display: block;
+}
+
+.twitter-post{
+  font-size: 10px;
+  color: #707979;
+  line-height: 16px;
+  padding-left: 18px;
+  background: url('../images/twitter-feed-icon.png') left center no-repeat;
+}
+
+.twitter-post a{
+  text-decoration: none;
+  color: #f7f2d4;
+}
+
+.photo-stream{
+  padding-top: 9px;
+}
+
+.photo-stream img{
+  float: left;
+  padding-right: 4px;
+  padding-bottom: 5px;
+}
+
+.flickr{
+  font-family: 'Roboto',sans-serif;
+  font-size: 8px;
+  color: #6d7379;
+  padding-left: 17px;
+  background: url('../images/flicker-icon.png') left center no-repeat;
 }
