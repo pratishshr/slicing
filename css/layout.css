@@ -1,56 +1,65 @@
-.wrapper{
+.wrapper {
   background: red;
-  max-width: 80em; /*1280px*/
-  margin: 0 auto; 
+  max-width: 80em;
+  /*1280px*/
+  margin: 0 auto;
 }
 
-.header{
+.header {
   background: white;
-  padding-left: 45px; /*3.515625%;*/
+  padding-left: 45px;
+  /*3.515625%;*/
 }
 
-.logo{
+.logo {
   float: left;
-  padding-top: 17px;  /*17px*/
-  padding-bottom: 16px; /*16px*/
+  padding-top: 17px;
+  /*17px*/
+  padding-bottom: 16px;
+  /*16px*/
 }
 
-.header-right{
-  float:right;
+.header-right {
+  float: right;
 }
 
-.navigation{
+.navigation {
   float: left;
   padding: 0 12px;
 }
 
-.menu-btn{
+.menu-btn {
   float: right;
 }
 
 .slider{
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.slider {
   height: 590px;
   background: grey;
 }
 
-.main-container{
+.main-container {
   background: pink;
 }
 
-.col1-layout{
+.col1-layout {}
 
-}
-
-.feature-wrapper{
+.feature-wrapper {
   padding: 18px 16px 38px;
   background: white;
 }
 
-.about-wrapper{
+.about-wrapper {
   background: #fbf8f6;
 }
 
-.counter-wrapper{
+.counter-wrapper {
   background: #fe6261;
   padding-top: 37px;
   padding-bottom: 36px;
@@ -58,18 +67,12 @@
   border-bottom: 1px solid #fe4e4d;
 }
 
-
-.posts{
+.posts {
   background: white;
 }
 
-.footer{
+.footer {
   background: #333333;
   height: 186px;
   padding: 63px 0 63px 80px;
 }
-
-
-
-
-
