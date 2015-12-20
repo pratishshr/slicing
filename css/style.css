@@ -121,7 +121,7 @@ img {
 }
 
 .image-bottom{
-  width: 100%;
+  width: 1280px;
   position: absolute;
   bottom: 17px;
   text-align: center;
@@ -164,16 +164,19 @@ img {
 }
 
 /*feature section*/
+.feature-inner ul li{
+  display: table;
+  margin: 0 auto;
+}
 
-.feature-wrapper ul li {
+.feature-inner ul li {
   float: left;
   background: url('../images/feature-btm-border.png') center bottom no-repeat;
   /*2.344381568310428%;*/
   text-align: center;
-  width: 208px;
 }
 
-.feature-wrapper ul li a {
+.feature-inner ul li a {
   text-decoration: none;
 }
 
@@ -251,9 +254,9 @@ img {
 .btn {
   display: inline-block;
   background: #fbf8f6;
-  margin-right: 11px;
+  margin-right: 8px;
   border: 1px solid #cccac9;
-  padding: 0px 16px;
+  padding: 0px 18px;
 }
 
 .btn a {
@@ -261,7 +264,7 @@ img {
   text-decoration: none;
   font-size: 9px;
   line-height: 28px;
-  padding-right: 18px;
+  padding-right: 20px;
   color: #756264;
   background: url('../images/btn-arrow.png') center right no-repeat;
 }
@@ -440,7 +443,7 @@ img {
 }
 
 .logo-footer {
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 
 .footer-column p {
@@ -485,7 +488,7 @@ img {
   height: 28px;
   text-align: center;
   line-height: 28px;
-  font-size: 9px;
+  font-size: 8px;
   color: #ffefd9;
 }
 
@@ -498,17 +501,21 @@ img {
 }
 
 .footer-column ul li {
-  padding: 14px 0;
+  padding-top: 12px;
+  padding-bottom: 14px;
+
   font-family: 'Roboto', sans-serif;
   border-top: 1px solid #3f3f3f;
 }
 
 .footer-column ul li:first-child {
+  padding-top: 10px;
   border-top: none;
 }
 
 .blog-title {
   display: block;
+  padding-top: 2px;
   padding-bottom: 7px;
 }
 
