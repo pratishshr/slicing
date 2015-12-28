@@ -1,6 +1,6 @@
-// var sliderLong = document.getElementsByClassName('slider-long')[0];
+var sliderLong = document.getElementsByClassName('slider-long')[0];
 
-// var shiftMargin = 0;
+var shiftMargin = 0;
 var imageWidth = 1280;
 var sliderLong = document.getElementsByClassName("slider-long")[0];
 var animator = new Animator(sliderLong);
