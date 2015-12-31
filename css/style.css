@@ -1,7 +1,3 @@
-img {
-  display: block;
-}
-
 
 /*style for navigation bar*/
 
@@ -12,7 +8,6 @@ img {
 .navigation ul li {
   float: left;
   padding: 0 15px;
-  background: ;
 }
 
 .navigation ul li a {
@@ -77,17 +72,18 @@ img {
 /*slider section*/
 
 .slider-long{
-  width: 10000px;
+  width: 781.25%; /*10000px;*/
 }
 
 .slider-initial{
   float: left;
   position: relative;
+  width: 12.8%;
 }
 
 .slider-initial img{
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .image-right {
@@ -121,7 +117,7 @@ img {
 }
 
 .image-bottom{
-  width: 1280px;
+  width: 100% ;
   position: absolute;
   bottom: 17px;
   text-align: center;
@@ -143,7 +139,7 @@ img {
 
 .slider-description{
   position: absolute;
-  width: 1280px;
+  width: 100%;
   top: 193px;
   text-align: center;
 }
@@ -155,7 +151,7 @@ img {
 }
 
 .slider-description p{
-  width: 435px;
+  width: 33.984375%; /*435px;*/
   font-family:'Roboto',sans-serif;
   font-size: 15px;
   margin: 0 auto;
@@ -181,16 +177,11 @@ img {
 }
 
 /*feature section*/
-.feature-inner ul li{
-  display: table;
-  margin: 0 auto;
-}
-
 .feature-inner ul li {
-  float: left;
+  display: inline-block;
   background: url('../images/feature-btm-border.png') center bottom no-repeat;
-  /*2.344381568310428%;*/
   text-align: center;
+  width: 16.25%; /*208px;*/
 }
 
 .feature-inner ul li a {
@@ -199,8 +190,6 @@ img {
 
 .top-image {
   display: block;
-  width: 208px;
-  /*100%*/
   height: 60px;
 }
 
@@ -231,13 +220,12 @@ img {
 
 .about-left {
   float: left;
-  width: 640px;
-  /*50%*/
+  width: 50%; /*640px;*/
   background: #fbf8f6;
 }
 
 .about-content {
-  padding: 79px 69px;
+  padding: 79px 10.78125% 0px; /*69px;*/
 }
 
 .about-content h1 {
@@ -305,9 +293,10 @@ img {
   color: white;
   background: url('../images/btn-arrow-active.png') center right no-repeat;
 }
+
 .about-right {
   float: right;
-  width: 640px;
+  width: 50%; /*640px;*/
   height: 386px;
   background: url('../images/about-image.png');
 }
@@ -315,38 +304,36 @@ img {
 
 /*counter starts here*/
 
-.counter-inner ul {
-  display: table;
-  margin: 0 auto;
-}
-
+.counter-inner ul{
+  list-style: none;
+ }
 .counter-inner ul li {
-  float: left;
-  width: 190px;
+  display: inline-block;
+  width: 14.84375%; /*190px;*/
 }
 
 .counter-image {
   display: block;
-  width: 66px;
+  width: 34.73684210526316%; /*66px;*/
   height: 70px;
   border-right: 2px solid #fc6867;
   float: left;
 }
 
 .counter-image.first {
-  background: url('../images/counter-1.png') 10px 15px no-repeat;
+  background: url('../images/counter-1.png') 25% 15px no-repeat;
 }
 
 .counter-image.second {
-  background: url('../images/counter-2.png') 10px 15px no-repeat;
+  background: url('../images/counter-2.png')  25% 15px no-repeat;
 }
 
 .counter-image.third {
-  background: url('../images/counter-3.png') 10px 15px no-repeat;
+  background: url('../images/counter-3.png')  25% 15px no-repeat;
 }
 
 .counter-image.fourth {
-  background: url('../images/counter-4.png') 10px 15px no-repeat;
+  background: url('../images/counter-4.png')  25% 15px no-repeat;
 }
 
 .counter-number {
@@ -354,16 +341,15 @@ img {
   font-size: 30px;
   color: #fd7e7e;
   float: left;
-  padding: 12px 18px 0px;
+  padding: 12px 9.473684210526316% 0px;
 }
 
 .counter-text {
   float: left;
   font-size: 10px;
   color: #fd7e7e;
-  padding: 4px 18px 0;
+  padding: 4px 9.473684210526316% 0;
 }
-
 
 /*style for posts section*/
 
@@ -373,23 +359,25 @@ img {
 
 .posts ul li {
   float: left;
+  width: 50%;
 }
 
 .post-image {
   float: left;
+  width: 50%;
 }
 
-.post-image img {
-  height: 241px;
-  width: 320px;
+.post-image img{
+  width: 100%;
+  height: 100%;
 }
 
 .post-content {
   float: left;
   height: 163px;
-  width: 236px;
+  width: 36.875%;
   background: #ffffff;
-  padding: 39px 42px;
+  padding: 39px 6.5625%;
 }
 
 .post-date,
@@ -420,7 +408,6 @@ img {
   font-size: 9px;
   padding-right: 15px;
   background: url('../images/read-more-arrow.png') right center no-repeat;
-  ;
 }
 
 .opposite .post-content {
@@ -454,8 +441,9 @@ img {
 /*footer section*/
 
 .footer-column {
-  width: 253px;
-  padding-right: 37px;
+  width: 21.08333333333333%;
+ /* width: 253px;*/
+  padding-right: 3.083333333333333%; /*37px;*/
   float: left;
 }
 
@@ -483,6 +471,7 @@ img {
 
 .subscribe-form {
   padding-top: 16px;
+  width: 100%;
 }
 
 .subscribe-input input {
@@ -490,8 +479,8 @@ img {
   background: none;
   outline: none;
   height: 26px;
-  width: 141px;
-  padding: 0 13px;
+  width: 54.94071146245059%;
+  padding: 0 5.138339920948617%; /*13px;*/
   font-size: 9px;
   float: left;
   color: #ffefd9;
@@ -501,7 +490,7 @@ img {
   border: none;
   background: #fe6261;
   float: left;
-  width: 84px;
+  width: 33.20158102766798%;
   height: 28px;
   text-align: center;
   line-height: 28px;

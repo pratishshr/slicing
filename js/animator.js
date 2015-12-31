@@ -28,14 +28,12 @@ function Animator(element) {
 
   // should stop the animation in current position
   this.stop = function() {
-    console.log("helo");
     clearInterval(intervalId);
   }
 
   // should stop the animation and element's properties should be at "end" value
   this.finish = function(width) {
     clearInterval(intervalId);
-    console.log(initial);
     element.style[cssProp] = initial + width + 'px';
   }
 }

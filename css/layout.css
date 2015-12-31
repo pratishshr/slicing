@@ -7,14 +7,13 @@
 
 .header {
   background: white;
-  padding-left: 45px;
-  /*3.515625%;*/
+  padding-left:  3.515625%;
+  /*45px;*/
 }
 
 .logo {
   float: left;
   padding-top: 17px;
-  /*17px*/
   padding-bottom: 16px;
   /*16px*/
 }
@@ -37,10 +36,7 @@
   margin: 0 auto;
   position: relative;
   width: 100%;
-}
-
-.slider {
-  height: 590px;
+  /*height: 590px;*/
   background: grey;
 }
 
@@ -48,11 +44,10 @@
   background: pink;
 }
 
-.col1-layout {}
-
 .feature-wrapper {
   padding: 18px 16px 38px;
   background: white;
+  text-align: center;
 }
 
 .about-wrapper {
@@ -61,10 +56,11 @@
 
 .counter-wrapper {
   background: #fe6261;
-  padding-top: 37px;
-  padding-bottom: 36px;
+  padding-top: 36px;
+  padding-bottom: 35px;
   border-top: 1px solid #fe4e4d;
   border-bottom: 1px solid #fe4e4d;
+  text-align: center;
 }
 
 .posts {
@@ -73,5 +69,5 @@
 
 .footer {
   background: #333333;
-  padding: 63px 0 63px 80px;
+  padding: 63px 0 63px 6.25%;
 }
