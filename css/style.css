@@ -178,10 +178,10 @@
 
 /*feature section*/
 .feature-inner ul li {
-  display: inline-block;
+  float: left;
   background: url('../images/feature-btm-border.png') center bottom no-repeat;
   text-align: center;
-  width: 16.25%; /*208px;*/
+  width: 16.66666666666667%; /*208px;*/
 }
 
 .feature-inner ul li a {
@@ -222,6 +222,13 @@
   float: left;
   width: 50%; /*640px;*/
   background: #fbf8f6;
+}
+
+.about-right {
+  float: right;
+  width: 50%; /*640px;*/
+  height: 386px;
+  background: url('../images/about-image.png');
 }
 
 .about-content {
@@ -294,21 +301,14 @@
   background: url('../images/btn-arrow-active.png') center right no-repeat;
 }
 
-.about-right {
-  float: right;
-  width: 50%; /*640px;*/
-  height: 386px;
-  background: url('../images/about-image.png');
-}
-
-
 /*counter starts here*/
 
-.counter-inner ul{
-  list-style: none;
- }
+.counter-inner {
+  margin: 0 auto;
+}
+
 .counter-inner ul li {
-  display: inline-block;
+  float: left;
   width: 14.84375%; /*190px;*/
 }
 
@@ -377,7 +377,7 @@
   height: 163px;
   width: 36.875%;
   background: #ffffff;
-  padding: 39px 6.5625%;
+  padding: 39px 6.5625% 0;
 }
 
 .post-date,
