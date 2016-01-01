@@ -1,21 +1,19 @@
 .wrapper {
   background: red;
   max-width: 80em;
-  /*1280px*/
   margin: 0 auto;
 }
 
 .header {
   background: white;
-  padding-left:  3.515625%;
-  /*45px;*/
+  padding-left: 3.515625%;
 }
 
 .logo {
   float: left;
   padding-top: 17px;
   padding-bottom: 16px;
-  /*16px*/
+  width: 9.311740890688259%;
 }
 
 .header-right {
@@ -31,12 +29,11 @@
   float: right;
 }
 
-.slider{
+.slider {
   overflow: hidden;
   margin: 0 auto;
   position: relative;
   width: 100%;
-  /*height: 590px;*/
   background: grey;
 }
 

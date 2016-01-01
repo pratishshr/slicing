@@ -9,7 +9,7 @@ function Counter(counterClass) {
   var counter = []; //counter for each item
 
   this.flag = 0; //to run only once
-  
+
   var that = this;
 
   this.init = function() {
@@ -46,11 +46,26 @@ var posY; //scroll position of the window
 
 var scrollCounter = new Counter(counterClass); //instance of the Counter class
 
+var element = document.getElementsByClassName(counterClass)[0];
+
 window.addEventListener('scroll', function() {
-  posY = window.scrollY;
-  
-  if (posY >= 607 && scrollCounter.flag == 0) {
+  var docViewTop = document.body.scrollTop;
+  var docViewBottom = docViewTop + window.innerHeight;
+
+  var elemTop = getOffset(element).top;
+
+  if ((elemTop <= docViewBottom) && (elemTop >= docViewTop) && scrollCounter.flag == 0) {
     scrollCounter.init();
     scrollCounter.flag = 1;
   }
 });
+
+function getOffset(el) {
+
+  const box = el.getBoundingClientRect();
+
+  return {
+    top: box.top + window.pageYOffset - document.documentElement.clientTop,
+    left: box.left + window.pageXOffset - document.documentElement.clientLeft
+  }
+}
