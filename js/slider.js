@@ -174,6 +174,10 @@ function Slider() {
       animator.startPosition();
       counter = 0;
       that.checkPosition();
+      clearTimeout(mainId);
+    }else{
+      counter = 0;
+      mainId = setTimeout(that.slide, 2000);
     }
    }, false);
   }
